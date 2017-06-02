@@ -6,6 +6,7 @@ import static spark.Spark.*;
 
 public class main {
     public static void main(String[] args) {
-        get("/hello", (req, res) -> "Hello World");
+        get("/hello", (req, res) -> "You always doing the most jaylen");
+        get("/test", (req, res) -> "MAJOR KEY ALERT (testing purposes)");
     }
 }
