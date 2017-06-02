@@ -7,6 +7,6 @@ import static spark.Spark.*;
 public class main {
     public static void main(String[] args) {
         get("/hello", (req, res) -> "You always doing the most jaylen");
-        get("/test", (req, res) -> "test test");
+        get("/test", (req, res) -> "test test x2");
     }
 }
