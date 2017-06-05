@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SperoBackend" />
+        <module name="spero" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="SperoBackend" target="1.8" />
+      <module name="spero" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
